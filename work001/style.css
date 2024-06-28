@@ -1,0 +1,288 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.navbar-center {
+    display: flex;
+    gap: 40px;
+}
+
+/* navbar end */
+.header {
+    display: flex;
+}
+
+.header-title1 {
+    margin-top: 117px;
+    color: #FF8A56;
+    font-family: Roboto;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82.5px;
+    /* 114.583% */
+    letter-spacing: 2px;
+
+}
+
+.header-title2 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82.5px;
+    /* 114.583% */
+    letter-spacing: 2px;
+    width: 647px;
+}
+
+.header-text {
+    color: #666;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    /* 150% */
+    width: 547px;
+    margin-top: 34px;
+}
+
+.header-button-menu {
+    display: flex;
+    gap: 40px;
+}
+
+.header-btn {
+    margin-top: 38px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 100% */
+    display: flex;
+    width: 151px;
+    padding: 20px 30px 20px 30px;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    width: 151px;
+    height: 58px;
+    flex-shrink: 0;
+}
+
+.header-button-title {
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 100% */
+    margin-top: 58px;
+}
+
+.header-option {
+    width: 500px;
+    height: 595px;
+    flex-shrink: 0;
+    margin-top: 70px;
+}
+
+.header-fut-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 102px;
+    margin-bottom: 40px;
+}
+
+.hf-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 156px;
+}
+
+.hf-service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.hftitle {
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 100% */
+}
+
+.hf-service-title {
+    color: #FF5E69;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    /* 100% */
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.design {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 115px;
+}
+
+.design-title {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 59.4px;
+    /* 110% */
+    letter-spacing: 1px;
+    width: 768px;
+}
+
+/* header end */
+.aplication-title {
+    margin-top: 40px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+    /* 110% */
+}
+
+.aplication-text {
+    margin-top: 25px;
+    color: #666;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    margin-bottom: 21px;
+    width: 252px;
+}
+
+.apl-flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 175% */
+}
+
+.apl-flex2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 175% */
+}
+
+.apl-flex3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 175% */
+}
+
+.aplication-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 152px;
+}
+.Rectangle{
+    width: 7px;
+height: 7px;
+flex-shrink: 0;
+}
+.aplication-title1{
+    margin-top: 40px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+    /* 110% */
+    width: 285px;
+}
+.rectangle-title{
+    color: #000;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 175% */
+}
